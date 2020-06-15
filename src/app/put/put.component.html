@@ -1,0 +1,22 @@
+<p>put works!</p>
+
+
+
+<!-- 
+<form #pf="ngForm" (ngSubmit)="put(pf)">
+    <input type="text">
+
+    <button>put</button>
+</form> -->
+ 
+<form #pf="ngForm" (ngSubmit)="put(pf)">
+
+        Product Id:<input name="productId" ngModel type="number"><br><br>
+        ProductName:<input name="productName" ngModel type="text"><br><br>
+        ProductDescription:<input name="productDescription" ngModel type="text"><br><br>
+        ProductPrice:<input name="productPrice" ngModel type="text"><br><br>
+        ProductURL:<input name="productURL" ngModel type="text"><br><br>
+        Category:<input name="category" ngModel type="text"><br><br>
+        <button>Put Product</button>
+    </form>
+    

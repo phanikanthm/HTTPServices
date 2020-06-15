@@ -1,0 +1,41 @@
+<p>weatherapi works!</p>
+ 
+
+
+    <input type="text" name="weat" [(ngModel)]="eat">
+<button (click)="getapi()">WeatherApi</button>
+
+
+<!-- {{ weathers | json }} -->
+
+{{weathers|json}}
+
+<!-- 
+<div class="container">
+<table>
+<thead class="table table-hover table-bordered">
+    <tr>
+        <th>coord</th>
+        <th>weather</th>          
+        <th>visibility</th>
+        <th>wind</th>
+        <th>clouds</th>
+        <th>dt</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+         <td>{{weathers.coord | json}}</td>
+         <td>{{weathers.weather | json}}</td>
+         <td>{{weathers.visibility | json}}</td>
+         <td>{{weathers.wind | json}}</td>
+         <td>{{weathers.clouds | json}}</td>
+         <td>{{weathers.dt | json}}</td>
+         
+    </tr>
+</tbody>
+</table> 
+</div> -->
+
+
+<!-- *ngFor="let weat of weathers" -->
